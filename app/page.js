@@ -8,7 +8,7 @@ const page = () => {
       setname("krishna")
   }
   return (
-    <div className='w-full h-screen bg-red-900 flex items-center text-2xl justify-center flex-col'>
+    <div className='w-full h-screen bg-red-800 flex items-center text-2xl justify-center flex-col'>
       my name is : {name}
       <br/>
       <button onClick={namehanderlar} className='py-1 px-5 bg-green-500 text-white rounded-md '>change name </button>
